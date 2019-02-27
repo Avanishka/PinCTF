@@ -7,6 +7,7 @@ This tool is designed to use instruction counting as an avenue for [Side Channel
 [![asciicast](https://asciinema.org/a/2bHy0y9MrGNa8Xp9MSPT17HTS.png)](https://asciinema.org/a/2bHy0y9MrGNa8Xp9MSPT17HTS)
 
 ## Install Pin
+
 Included in this repo is a script for pulling down Intel's PIN and instructions for building it on Ubuntu 16.04. 
 
 ```
@@ -15,6 +16,7 @@ Included in this repo is a script for pulling down Intel's PIN and instructions 
 ```
 
 ## Running PinCTF
+
 PinCTF is implemented as a python script wrapping PIN. It will execute a pin command then read from PIN's produced *inscount.out* file
 
 ```
